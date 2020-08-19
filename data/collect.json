@@ -1,11 +1,9 @@
 {
-    "data":"This is a dummy data",
-    "Fee":[
-        {
-            "Amount":100
-        },
-        {
-            "Amount":2000
-        }
-    ]
+  "searchApllicationId": {
+    "type": "Textfield",
+    "props": {
+      "label": "application id",
+      "required": true
+    }
+  }
 }

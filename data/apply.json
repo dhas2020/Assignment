@@ -1,11 +1,21 @@
 {
-    "data":"This is a dummy data",
-    "persons":[
+  "applytradeName": {
+    "type": "Textfield",
+    "props": {
+      "label": "trade name",
+      "required": true
+    }
+  },
+  "applyTradeType": {
+    "type": "Select",
+    "props": {
+      "label": "trade type",
+      "option": [
         {
-            "name":"Abhinav"
-        },
-        {
-            "name":"Raj"
+          "name": "goods",
+          "code": "goods"
         }
-    ]
+      ]
+    }
+  }
 }
